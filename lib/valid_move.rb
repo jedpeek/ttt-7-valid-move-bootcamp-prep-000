@@ -4,6 +4,7 @@ def valid_move?(board, index)
     puts "Position taken. Try again."
     return false
   elsif index > 9 || index == !Fixnum
+    puts "Not a valid move. Try again."
     return false
   else
     return true
