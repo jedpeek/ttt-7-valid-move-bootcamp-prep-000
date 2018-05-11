@@ -2,9 +2,9 @@
 def valid_move?(board, index)
   if position_taken?
     puts "Position taken. Try again."
-    return true
-  else
     return false
+  else
+    return true
   end
 end
 
