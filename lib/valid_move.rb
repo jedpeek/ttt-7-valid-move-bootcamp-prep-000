@@ -1,8 +1,6 @@
-# code your #position_taken? method here!
-board = []
-index = 0
+
 def valid_move?(board, index)
-  if position_taken?
+  if position_taken?(board, index)
     puts "Position taken. Try again."
     return false
   else
