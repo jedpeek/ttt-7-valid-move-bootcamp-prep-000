@@ -3,6 +3,7 @@ def valid_move?(board, index)
   if position_taken?(board, index)
     puts "Position taken. Try again."
     return false
+  elsif index > 9 || index.is_a? Fixnum
   else
     return true
   end
